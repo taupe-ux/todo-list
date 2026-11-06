@@ -1,0 +1,9 @@
+#weather {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+#weather span {
+  margin-left: 25px;
+}

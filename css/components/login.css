@@ -2,15 +2,11 @@
   margin: 50px;
 }
 
-#login-form input {
-  border: none;
-  border-bottom: 1px solid;
-  font-size: 38px;
+#login-info {
   text-align: center;
-}
-
-#login-form input:focus {
-  outline: none;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 #greeting {

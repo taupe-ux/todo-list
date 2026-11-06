@@ -1,0 +1,48 @@
+#todo-list span {
+  font-size: 25px;
+}
+#todo-list button {
+  all: unset;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: min-content;
+}
+
+.todo_aside {
+  background-color: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(8px);
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  padding: 10px 30px;
+
+  height: auto;
+  max-height: 200px;
+
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+.todo_aside::-webkit-scrollbar {
+  display: none;
+}
+
+#todo-list {
+  width: 100%;
+  list-style: none;
+  word-break: break-all;
+}
+
+.todo-info {
+  font-size: 38px;
+  text-align: center;
+}

@@ -129,5 +129,9 @@ table {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+* {
+  box-sizing: border-box;
 }

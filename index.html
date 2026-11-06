@@ -7,20 +7,40 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header id="weather"><span></span><span></span></header>
 
     <main class="main">
       <div class="clokc_div">
         <span id="clock">00:00:00</span>
       </div>
       <div class="login_div">
+        <h1 id="login-info" class="hidden" style="color: white">
+          Hello! What's your name?
+        </h1>
         <form id="login-form" class="hidden">
-          <input type="text" required placeholder="What is your name?" />
+          <input type="text" required />
         </form>
         <h1 id="greeting" class="hidden"></h1>
       </div>
+      <div class="todo hidden">
+        <section class="todo_section">
+          <h1 class="todo-info">What is your main goal for today?</h1>
+          <form id="todo-form">
+            <input type="text" />
+          </form>
+        </section>
+      </div>
     </main>
+    <aside class="todo_aside hidden">
+      <ul id="todo-list"></ul>
+    </aside>
+    <footer class="footer">
+      <div id="quote"><span></span><span></span></div>
+    </footer>
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
