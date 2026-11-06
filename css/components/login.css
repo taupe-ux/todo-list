@@ -1,0 +1,19 @@
+.login_div {
+  margin: 50px;
+}
+
+#login-form input {
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 38px;
+  text-align: center;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#greeting {
+  font-size: 38px;
+  font-weight: bold;
+}
